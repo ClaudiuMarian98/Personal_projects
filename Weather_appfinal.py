@@ -22,7 +22,7 @@ class SearchPage(tk.Tk):
         self.resizable(False,False)
 
 
-        self.background_image = Image.open("C:\\Users\\gabi1\\Downloads\\haibaietii.jpg")  # Replace with your image path
+        self.background_image = Image.open("C:\\Users\\gabi1\\Downloads\\haibaietii.jpg")  
         self.background_photo = ImageTk.PhotoImage(self.background_image)
 
         self.background_label = tk.Label(self, image=self.background_photo)
